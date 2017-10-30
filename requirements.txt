@@ -1,2 +1,2 @@
-sentry-redmine
+https://github.com/getsentry/sentry-redmine/archive/master.zip
 https://github.com/getsentry/sentry-auth-github/archive/master.zip
