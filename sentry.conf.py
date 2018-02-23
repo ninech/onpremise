@@ -304,9 +304,3 @@ if 'GITHUB_APP_ID' in os.environ:
 if 'BITBUCKET_CONSUMER_KEY' in os.environ:
     BITBUCKET_CONSUMER_KEY = env('BITBUCKET_CONSUMER_KEY')
     BITBUCKET_CONSUMER_SECRET = env('BITBUCKET_CONSUMER_SECRET')
-
-###########################
-## Google Authentication ##
-###########################
-GOOGLE_CLIENT_ID = env('GOOGLE_CLIENT_ID') or ""
-GOOGLE_CLIENT_SECRET = env('GOOGLE_CLIENT_SECRET') or ""
